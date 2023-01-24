@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reversed text</title>
+
+
+</head>
+<body>
+    <h1>Original text has {{lentext}} words </h1>
+    {{usertext}}
+    <h1>Reversed Text</h1>
+    {{reversedtext}}
+    <br><br>
+    <form action="{% url 'home' %}">
+        <input type="submit" value="Home">
+    </form>
+</body>
+</html>
